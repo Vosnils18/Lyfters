@@ -5,21 +5,24 @@ session_start();
 <!DOCTYPE html>
 <html lang="eng">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./style/headerstyle.css">
-    <link rel="icon" href="./images/Favicon_Lyfters.png" type="image/png">
-    <title>
-        Lyfters
-    </title>
+    <title>Lyfters</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/stylesheet.css">
+    <link rel="icon" type="image/png" href="./images/Favicon_Lyfters.png">
 </head>
 
 <header>
-    <div class="menubar">
-        <a href="./index.php"><img src="./images/logo_V2_large.png" alt="./images/logo_V2.svg"></a>
+    <div class="header">
+        <h1>Lyfters</h1>
+        <p>A website created by me.</p>
     </div>
-    <div class="topnav">
-        <a href="./profile.php"><img src="./images/icons8-customer-96.png"></a>
-        <a href="./cart.php"><img src="./images/icons8-shopping-cart-100.png"></a>
+
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#" class="right">Link</a>
     </div>
 </header>
 </html>

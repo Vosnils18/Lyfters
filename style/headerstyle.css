@@ -1,6 +1,5 @@
 #menubar {
-    grid-column: 1/ span 2;
-    grid-row: 1/ span 1;
+    max-width: 50%;
 }
 
 .menubar img {
@@ -9,8 +8,8 @@
 }
 
 #topnav {
-    grid-column: 4 / span 2;
-    grid-row: 1/ span 1;
+    max-width: 20%;
+    float: right;
 }
 
 .topnav img {
