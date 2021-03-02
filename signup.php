@@ -21,7 +21,8 @@ include_once './includes/header.php';
         <label for="gender"><b>Geslcaht</b></label><br>
         <input type="radio" name="gender" value="male"> Man<br>
         <input type="radio" name="gender" value="female"> Vrouw<br>
-        <input type="radio" name="gender" value="other"> Anders
+        <input type="radio" name="gender" value="other"> Anders<br>
+        <br>
 
         <label for="email"><b>Emailadres</b></label><br>
         <input type="text" placeholder="Barney@email.nl" name="email" id="email" required><br><br>
