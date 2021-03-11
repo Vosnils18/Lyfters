@@ -7,6 +7,7 @@ include_once 'includes/header.php';
 <link rel="stylesheet" href="style/stylesheet.css">
 
 <body>
+<div class="header"></div>
 
 <div class="row">
     <div class="side">

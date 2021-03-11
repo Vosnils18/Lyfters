@@ -13,10 +13,7 @@ session_start();
 </head>
 
 <header>
-    <div class="header">
-        <h1>Lyfters</h1>
-        <p>A website created by me.</p>
-    </div>
+    <div class="header"></div>
 
     <div class="navbar">
         <a href="#">Link</a>
