@@ -1,0 +1,78 @@
+.w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+
+body {
+    diplay: grid;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button {
+    position: static;
+    height: 40px;
+    margin: 15px 15px 15px 0px;
+    float: right;
+}
+
+.logo {
+    max-height: 70px;
+}
+
+.section {
+    height: 70px;
+}
+
+.section2 {
+    float: none;
+    text-align: center;
+    max-width: 1910px;
+}
+
+.headerimg {
+    max-width: 1903px;
+}
+
+.container {
+    -o-object-fit: fill;
+    object-fit: fill;
+    max-width: 70%;
+}
+
+.grid {
+    grid-template-areas: "Area Area2"
+    "Area3 Area3";
+    -ms-grid-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+#w-node-1 {
+    -ms-grid-row: 1;
+    -ms-grid-columns: 1;
+    grid-area: Area;
+}
+
+#w-node-2 {
+    -ms-grid-row: 1;
+    -ms-grid-columns: 2;
+    grid-area: Area2;
+}
+
+#w-node-3 {
+    -ms-grid-row: 2;
+    -ms-grid-columns: 1;
+    grid-area: Area3;
+}
+
+.menu {
+    max-height: 40px;
+}
