@@ -10,22 +10,67 @@
 </head>
 <body>
 
-<div class="section w-clearfix">
+<div class="header w-clearfix">
     <img class="logo" src="images/logo_V2_large.png">
     <a href="#" class="button w-button"><img class ="menu" src="images/icons8-shopping-cart-100.png"></a>
     <a href="#" class="button w-button"><img class ="menu" src="images/icons8-customer-96.png"></a>
 </div>
-<div class="section2"><img src="images/2_Mount-Olympus-A9.jpg" class="headerimg"></div>
+<!--<div id="slideshow">-->
+
+<!--</div>-->
+<!--<br>-->
+<!--<div class="dots" style="text-align:center"></div>-->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://via.placeholder.com/468x120?text=468x120+Full+Banner+1" style="width:100%">
+        <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://via.placeholder.com/468x120?text=468x120+Full+Banner+2" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://via.placeholder.com/468x120?text=468x120+Full+Banner+3" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://via.placeholder.com/468x120?text=468x120+Full+Banner+4" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 <div>
     <div class="container w-container">
         <div class="w-layout-grid grid">
             <h1 id="w-node-1">Lyfters</h1>
             <p id="w-node-2">Lorem Ipsum</p>
-            <p id="w-node-3">lorem ipsum dolor sit amet</p>
+            <div id="w-node-3">
+                <div class="productImageContainer">
+                </div>
+            </div>
             <div id="w-node-4"></div>
         </div>
     </div>
 </div>
-
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
