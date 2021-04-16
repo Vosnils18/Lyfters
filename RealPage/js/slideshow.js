@@ -59,6 +59,7 @@ function createSlideshow(img) {
     mySlides.classList.add('fade');
     slideshowContainer.appendChild(mySlides);
 
+    console.log(img.image)
     let image = document.createElement('img');
     image.src = img.image;
     image.style.width = '100%';
