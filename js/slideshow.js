@@ -4,7 +4,7 @@ let loadImages = false;
 let slideIndex = 1;
 let dotClicked = false;
 
-const urlImages = 'http://localhost:80/lyfters/RealPage/webservice/index.php';
+const urlImages = 'http://localhost:80/lyfters/webservice/index.php';
 const slideshowContainer = document.querySelector(".slideshow-container");
 const dotsContainer = document.querySelector(".dots");
 
