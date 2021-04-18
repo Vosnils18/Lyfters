@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lyfters | coming soon...</title>
+    <meta name="description" content="Next gen lifting shoes, for serious fitness fanatics, that look good instead of bulky.">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded',function()
+      {
+        $("#newsletter_form").slideDown();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="content-wrap">
+        <div class="image">
+          <img class="logo" src="logo v2 large white.png" alt="Lyfters logo">
+        </div>
+
+        <br>
+
+        <div id="newsletter_form">
+          <div class="signup">
+            <h1>Lyfters is creating the next generation of lifting shoes.</h1>
+            <h2>
+              Want to be the first to see our progress?
+              <br>
+              <br>
+              Sign up for our newsletter now:
+            <h2>
+            <form action="signup.php" method="post">
+              <input type="text" name="user_name" id="user_name" placeholder="Your Name" size="30">
+              <br>
+              <input type="text" name="email" id="email" placeholder="Your Email" size="30"/>
+              <br>
+              <input type="submit" value="Subscribe" name="submit_form"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p id="footer">Copyright 2021 | Lyfters, All rights reserved</p>
+    </footer>
+  </body>
+
+ </html>
