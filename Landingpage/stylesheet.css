@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Antonio;
+  src: url("Antonio-VariableFont_wght.ttf");
+}
+
 body {
   background-color: #000000;
 }
@@ -29,7 +34,7 @@ body {
   text-align: center;
   color: #fff;
   font-size: 30px;
-  font-family: Impact, fantasy;
+  font-family: Antonio, fantasy;
   clear: both;
 }
 
