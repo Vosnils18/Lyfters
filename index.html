@@ -17,21 +17,55 @@
 </div>
 <!--<div id="slideshow">-->
 <div class="slideshow-container"></div>
-
 <div class="dots"></div>
-<div class="container w-container">
-    <div class="left-column"></div>
-    <div class="right-column">
-        <div class="product-description"></div>
-        <div class="product-configuration">
-            <div class="product-colour">
-                <div class="colour-choose"></div>
-            </div>
-            <div class="product-size"></div>
-        </div>
-        <div class="product-price"></div>
+
+<main class="container w-container">
+    <div class="left-column">
+        <img data-image="black" src="https://via.placeholder.com/1000x1000?text=1000x1000+black+product" alt="">
+        <img data-image="white" class="active" src="https://via.placeholder.com/1000x1000?text=1000x1000+white+product" alt="">
     </div>
-</div>
+    <div class="right-column">
+        <div class="product-description">
+            <span>Shoes</span>
+            <h1>Lyfters</h1>
+            <p>Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet. Lorem Ipsum dolor sit amet.</p>
+        </div>
+        <div class="product-configuration">
+            <div class="product-color">
+                <span>Color</span>
+                <div class="color-choose">
+                    <div>
+                        <input data-image="white" type="radio" id="white" name="color" value="white">
+                        <label for="white"><span></span></label>
+                    </div>
+                    <div>
+                        <input data-image="black" type="radio" id="black" name="color" value="black">
+                        <label for="black"><span></span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="size">
+                <span>Uw maat:</span>
+                <select class="size-choose">
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                </select>
+            </div>
+        </div>
+        <div class="product-price">
+            <span>148$</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+        </div>
+    </div>
+</main>
 
 <script type="text/javascript" src="js/slideshow.js"></script>
 </body>

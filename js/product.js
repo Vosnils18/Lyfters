@@ -1,6 +1,6 @@
 window.addEventListener('load', init);
 
-const urlProductData = 'http://localhost:80/lyfters/RealPage/webservice/product.php';
+const urlProductData = 'http://localhost:80/lyfters/webservice/product.php';
 
 function init() {
     getProductData();
