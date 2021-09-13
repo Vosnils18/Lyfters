@@ -35,7 +35,7 @@
                 <span>Color</span>
                 <div class="color-choose">
                     <div>
-                        <input data-image="white" type="radio" id="white" name="color" value="white">
+                        <input data-image="white" type="radio" id="white" name="color" value="white" checked="checked" class="active">
                         <label for="white"><span></span></label>
                     </div>
                     <div>
@@ -46,18 +46,19 @@
             </div>
             <div class="size">
                 <span>Uw maat:</span>
-                <select class="size-choose">
-                    <option value="37">37</option>
-                    <option value="38">38</option>
-                    <option value="39">39</option>
-                    <option value="40">40</option>
-                    <option value="41">41</option>
-                    <option value="42">42</option>
-                    <option value="43">43</option>
-                    <option value="44">44</option>
-                    <option value="45">45</option>
-                    <option value="46">46</option>
-                </select>
+                    <div class="size-choose">
+                        <button>37</button>
+                        <button>38</button>
+                        <button>39</button>
+                        <button>40</button>
+                        <button>41</button>
+                        <button>42</button>
+                        <button>43</button>
+                        <button>44</button>
+                        <button>45</button>
+                        <button>46</button>
+                        <button>47</button>
+                    </div>
             </div>
         </div>
         <div class="product-price">
@@ -68,5 +69,7 @@
 </main>
 
 <script type="text/javascript" src="js/slideshow.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+<script src="js/activehandler.js" charset="utf-8"></script>
 </body>
 </html>
